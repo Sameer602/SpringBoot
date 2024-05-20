@@ -13,7 +13,7 @@ public class Car  {
 		  	  
 		int status =  eng.start();
 		
-		if(status >= 1) {
+		if(status >= 2) {
 			System.out.println("Journey Started");
 		}else {
 			System.out.println("Engine Trouble");
